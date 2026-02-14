@@ -1,167 +1,83 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Delux - Estúdio Automotivo</title>
-    <link rel="icon" href="favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-
-</head>
-
-<body>
-    <header id="header">
-        <img src="./img/logo.jpg" alt="logo-autodelux"> <!-- IMAGEM DO CABEÇALHO -->
-        <nav>
-            <ul>
-                <li><a href="#home">Página Inicial</a></li>
-                <li><a href="#about">Sobre a Empresa</a></li> <!-- Conteúdo do cabeçalho -->
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoDelux | Estética Automotiva Premium</title>
+    <meta
+      name="description"
+      content="AutoDelux: estética automotiva premium com vitrificação, polimento técnico, higienização e serviços de alto padrão. Agende pelo WhatsApp."
+    />
+    <meta
+      name="keywords"
+      content="estética automotiva, vitrificação, polimento técnico, lavagem detalhada, higienização interna, AutoDelux"
+    />
+    <meta name="author" content="AutoDelux" />
+    <meta name="theme-color" content="#000000" />
+    <meta property="og:title" content="AutoDelux | Estética Automotiva Premium" />
+    <meta
+      property="og:description"
+      content="Seu carro merece padrão AutoDelux. Serviços premium com foco em brilho, proteção e valorização."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <link rel="icon" href="./img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a href="#inicio" class="logo">AutoDelux</a>
+      <a class="btn btn-yellow" href="https://wa.me/555198493688?text=Ol%C3%A1%2C%20quero%20agendar%20um%20servi%C3%A7o%20premium%20na%20AutoDelux." target="_blank" rel="noreferrer">Agendar</a>
     </header>
+
     <main>
-
-        <section id="home" class="section" style="position: relative; text-align: center;">
-            <div>
-                <h1 style="font-family: 'Montserrat Classic', sans-serif; font-size: 60px; margin-bottom: 2px;"
-                    class="welcome-message">BEM VINDO À <b>AUTO DELUX!</b></h1>
-                <p style="font-family: 'Montserrat Classic', sans-serif; font-size: 2rem; margin-bottom: 2px; line-height: 1.5;"
-                    class="welcome-message">Agende seu horário e deixe seu carro brilhar como nunca antes!</p>
-                <br><br><br>
-                <div style="margin: 0 auto; width: fit-content; font-weight: 800;">
-                    <a href="https://wa.me/555198493688?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio!%20"
-                        class="whatsapp-button" style="font-display:initial;">Agende agora!</a>
-                </div>
-            </div>
-        </section>
+      <section id="inicio" class="hero">
+        <div class="overlay"></div>
+        <div class="container hero-content">
+          <span class="pill">Estética automotiva premium</span>
+          <h1>Transforme seu carro em uma máquina de impacto com padrão AutoDelux.</h1>
+          <p>
+            Técnica, precisão e acabamento de alto nível para quem exige excelência em cada detalhe.
+            Cuidamos do seu veículo com processos profissionais e resultado visível.
+          </p>
+          <div class="actions">
+            <a class="btn btn-yellow" href="https://wa.me/555198493688?text=Ol%C3%A1%2C%20quero%20agendar%20um%20servi%C3%A7o%20premium%20na%20AutoDelux." target="_blank" rel="noreferrer">Agendar pelo WhatsApp</a>
+            <a class="btn btn-dark" href="#servicos">Conhecer Serviços</a>
+          </div>
         </div>
+      </section>
+
+      <section id="servicos" class="container section">
+        <p class="section-label">Serviços</p>
+        <h2>Performance visual, proteção e valorização real do seu carro.</h2>
+        <div class="grid">
+          <article class="card"><h3>Descontaminação automotiva</h3><p>Remove impurezas profundas da lataria para restaurar o toque liso e preparar a pintura para proteção avançada.</p><strong>Superfície pura e uniforme</strong></article>
+          <article class="card"><h3>Vitrificação de pintura</h3><p>Aplicação técnica com proteção de alta durabilidade que preserva brilho intenso e facilita a manutenção do veículo.</p><strong>Brilho duradouro</strong></article>
+          <article class="card"><h3>Remoção de chuva ácida</h3><p>Tratamento especializado para eliminar marcas em vidros e pintura, devolvendo nitidez e estética premium.</p><strong>Visibilidade e acabamento renovados</strong></article>
+          <article class="card"><h3>Lavagem simples</h3><p>Limpeza externa rápida e segura, ideal para manter o carro impecável no dia a dia sem comprometer o verniz.</p><strong>Visual limpo imediato</strong></article>
+          <article class="card"><h3>Lavagem detalhada</h3><p>Processo minucioso em todas as áreas externas e internas com foco em acabamento de alto padrão.</p><strong>Cuidado completo em cada detalhe</strong></article>
+          <article class="card"><h3>Polimento técnico</h3><p>Correção de riscos e manchas com técnica profissional para elevar profundidade de cor e reflexo da pintura.</p><strong>Pintura espelhada</strong></article>
         </div>
-        <img src="./img/teste2.jpeg" alt="ok"
-            style="position:absolute; top: 100px; right:-0%; width: 540px; height: 540px;">
-        </section>
+      </section>
 
-        <section id="about" class="section"
-            style="padding-top: 48  px; text-align: left; width: 60%; font-size: 30px; line-height: 1.0; margin-left:27%; font-family: monospace; font-weight: 500; position:sticky;">
-            <p>Auto Delux Estúdio Automotivo surge em Julho de 2022</p>
-            <p>pelas mãos habilidosas de Michael Douglas, apaixonado</p>
-            <p>por carros e dedicado a superar expectativas.</p>
-            <p>Nossa missão é mais que simplesmente atender clientes,</p>
-            <p>é proporcionar uma experiência única, onde cada</p>
-            <p>detalhe é pensado para garantir proteção, qualidade</p>
-            <p>e um resultado que surpreenda. Queremos que cada vez</p>
-            <p>que você entre em seu carro tratado por nós,</p>
-            <p>sinta a emoção de estar no volante de um veículo</p>
-            <p>como se fosse novo em folha!</p>
-            <p>Venha viver essa sensação com a <b>Auto Delux!</b></p>
-            <br>
-            <p>blablalbla</p>
-            <img src="./img/imagem-conteudo.png" alt="texto-em-foto">
-        </section>
-
-        <div class="fotos" class="fotos">
-            <img src="img/polimento.jpeg" alt="imagem1">
-            <img src="img/interna.jpeg" alt="imagem2">
-            <img src="img/cuidado.jpeg" alt="imagem3">
+      <section class="section authority">
+        <div class="container two-col">
+          <div>
+            <p class="section-label">Autoridade AutoDelux</p>
+            <h2>Confiança construída com técnica e padrão premium.</h2>
+            <p>Na AutoDelux, cada serviço segue protocolo profissional, produtos de alto desempenho e inspeção rigorosa.</p>
+          </div>
+          <div class="quote">“Atendimento impecável, resultado acima da expectativa e cuidado extremo em cada etapa.”</div>
         </div>
-        </div>
+      </section>
 
-        <br><br><br><br><br><br>
-        <br><br><br>
-        <section id="services" class="section" style="position: relative;">
-            <h1
-                style="font-family: 'Montserrat Classic', sans-serif; font-size: 50px; text-align: center; color: #e0e0e0; margin-bottom: 20px;">
-                AQUI VOCÊ ECONTRA</h1>
-            <div style="display: flex; justify-content: center;">
-                <p
-                    style="font-family: 'Montserrat Classic', sans-serif; font-size: 3rem; text-align: center; color: #141414; background-color: #ffca2d; padding: 20px; border-radius: 90px;">
-                    O tratamento que seu veículo <b>merece!</b></p>
-            </div>
-        </section>
-
-        <div class="baloes">
-            <div class="balao">
-                <h3>Lavagem Simples</h3>
-                <p>
-                    Na Lavagem Simples da Auto Delux, seu carro é lavado à mão com cuidado e atenção aos detalhes,
-                    usando os melhores produtos para uma remoção total e segura da sujeira. Após o enxágue, o veículo é
-                    secado manualmente, deixando-o limpo e estralando no brilho!</p>
-            </div>
-            <div class="balao">
-                <h3>Lavagem Detalhada</h3>
-                <p>Na Lavagem Detalhada da Auto Delux, seu carro recebe um tratamento minucioso para remover sujeiras
-                    difíceis e revitalizar sua aparência. Cada superfície é lavada à mão e enxaguada, com aplicação de
-                    ceras e polidores para proteção e brilho duradouro, deixando seu carro com aspecto de novo.</p>
-            </div>
-            <div class="balao">
-                <h3>Polimento</h3>
-                <p>No Polimento da Auto Delux, seu carro recebe um tratamento para remover pequenas imperfeições e
-                    revitalizar o brilho da pintura. Utilizando produtos e técnicas específicas, o polimento é realizado
-                    de forma cuidadosa para não danificar a pintura. O resultado é uma superfície mais lisa e brilhante,
-                    que ressalta a beleza do veículo.</p>
-            </div>
-            <div class="balao">
-                <h3><b>Vitrificação de Pintura</b></h3>
-                <p>Na Vitrificação de Pintura da Auto Delux, seu carro recebe um revestimento de proteção para a
-                    pintura. Esse processo envolve a aplicação de um produto cerâmico que cria uma camada transparente
-                    sobre a pintura, protegendo-a contra riscos, raios UV e sujeira. Além da proteção, a vitrificação de
-                    pintura também proporciona um brilho intenso e duradouro, mantendo seu carro com aspecto de novo por
-                    mais tempo.</p>
-            </div>
-            <div class="balao">
-                <h3>Remoção de Chuva Ácida</h3>
-                <p>a Remoção de Chuva Ácida é um serviço especializado para corrigir os danos causados pela exposição a
-                    esse tipo de precipitação. A chuva ácida pode danificar a pintura do veículo, causando manchas e
-                    corrosão. O serviço inclui a limpeza profunda da superfície afetada, seguida pela aplicação de
-                    produtos específicos para remover as manchas e restaurar o brilho da pintura. Esse processo ajuda a
-                    proteger a pintura contra danos futuros e mantém a aparência do veículo.</p>
-            </div>
-            <div class="balao">
-                <h3>Higienização</h3>
-                <p>Na Auto Delux, a Higienização Interna e Externa é um serviço completo que inclui a limpeza profunda
-                    do interior e exterior do seu veículo. O interior é cuidadosamente aspirado e limpo, incluindo
-                    painéis, bancos, tapetes e teto. Já o exterior é lavado, descontaminado e recebe uma proteção para
-                    manter o brilho da pintura por mais tempo. Esse serviço garante que seu carro fique limpo e fresco,
-                    tanto por dentro quanto por fora.</p>
-            </div>
-
-            <div class="balao">
-                <h3>Descontaminação de Pintura</h3>
-                <p>Descontaminação de Pintura é um serviço especializado para remover contaminantes que se acumulam na
-                    superfície do carro, como resíduos industriais, seiva de árvores, fezes de pássaros e outros
-                    detritos que podem danificar a pintura. Esse processo inclui a lavagem cuidadosa do veículo, seguida
-                    pela aplicação de produtos descontaminantes para remover essas impurezas sem danificar a pintura. O
-                    resultado é uma superfície limpa, lisa e protegida contra danos futuros.</p>
-            </div>
-
-            <div class="balao">
-                <h3>Aplicação de Selantes de Proteção</h3>
-                <p>Na Auto Delux, a Aplicação de Selantes de Proteção é um serviço essencial para manter a pintura do
-                    seu veículo protegida contra os efeitos do tempo e do ambiente. O selante cria uma barreira
-                    protetora sobre a pintura, impedindo a penetração de sujeira, água e raios UV, que podem causar
-                    danos e desgaste. Além da proteção, o selante também proporciona um brilho intenso e duradouro,
-                    mantendo seu carro com aspecto de novo por mais tempo.</p>
-            </div>
-
-        </div>
-
-        <section id="contact" class="section" style="text-align: center;">
-            <h1
-                style="font-family: 'Montserrat Classic', sans-serif; font-size: 50px; color: #e0e0e0; margin-bottom: 20px;">
-                Entre em Contato</h1>
-            <p style="font-family: 'Montserrat Classic', sans-serif; font-size: 300%;">Estamos ansiosos para atendê-lo!
-            </p>
-            <p style="font-family: 'Montserrat Classic', sans-serif; font-size: 300%;">Agende seu horário agora mesmo!
-            </p>
-            <div style="margin: 0 auto; width: fit-content;">
-                <a href="https://wa.me/555198493688?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio!%20"
-                    class="whatsapp-button">Clique aqui!</a>
-            </div>
-        </section>
+      <section class="container section cta">
+        <h2>Seu carro merece padrão AutoDelux.</h2>
+        <p>Fale agora com nosso time e receba uma recomendação personalizada para elevar o nível do seu veículo.</p>
+        <a class="btn btn-yellow" href="https://wa.me/555198493688?text=Ol%C3%A1%2C%20quero%20agendar%20um%20servi%C3%A7o%20premium%20na%20AutoDelux." target="_blank" rel="noreferrer">Agendar pelo WhatsApp</a>
+      </section>
     </main>
-</body>
 
+    <a class="floating-whatsapp" href="https://wa.me/555198493688?text=Ol%C3%A1%2C%20quero%20agendar%20um%20servi%C3%A7o%20premium%20na%20AutoDelux." target="_blank" rel="noreferrer">WhatsApp</a>
+  </body>
 </html>
